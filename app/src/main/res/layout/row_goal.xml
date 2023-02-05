@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/goalrow_CardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="6dp"
+        card_view:cardElevation="@dimen/cardview_default_elevation"
+        card_view:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_rect_10">
+
+            <ImageView
+                android:id="@+id/goalImage"
+                android:layout_width="100dp"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/doit_logo_text" />
+
+            <TextView
+                android:id="@+id/goalTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/goalImage"
+                android:fontFamily="@font/apoppins"
+                android:text="Mop the bedroom floor"
+                android:textColor="@color/blue"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/goalPoints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/goalTitle"
+                android:layout_toRightOf="@id/goalImage"
+                android:text="50 points"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:fontFamily="@font/apoppins"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="5dp"/>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black_background"
+    tools:context=".Splash.CompleteSplashActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/noice_gif"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/noice_gif"
+            android:layout_centerInParent="true"
+            />
+
+        <TextView
+            android:id="@+id/congratatsMsg_completeActivitySplash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/noice_gif"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Great job "
+            android:textSize="30dp"
+            android:textColor="@color/blue"
+            android:fontFamily="@font/apoppins"
+            android:layout_centerHorizontal="true"
+
+            />
+    </RelativeLayout>
+
+
+</FrameLayout>

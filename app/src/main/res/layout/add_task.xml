@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_background"
+    tools:context=".Tasks.AddTaskActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/doit_logo_text" />
+
+            <TextView
+                android:id="@+id/addataskTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/apoppins"
+                android:text="Add a task"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/apoppins"
+                android:text="Task's name"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/taskName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/rounded_rect_10"
+                android:ems="10"
+                android:fontFamily="@font/thin_poppins"
+                android:gravity="center_vertical"
+                android:hint="eg. Mop the floor (Max 30 characters)"
+                android:inputType="textPersonName"
+                android:maxLength="30"
+                android:paddingStart="15dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/hint"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textview8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/apoppins"
+                android:text="Points"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/pointsReq"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/rounded_rect_10"
+                android:ems="10"
+                android:fontFamily="@font/thin_poppins"
+                android:gravity="center_vertical"
+                android:hint="Enter a number (eg. 50)"
+                android:inputType="number"
+                android:paddingStart="15dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/hint"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textview9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/apoppins"
+                android:text="Task's description"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/taskDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/rounded_rect_10"
+                android:ems="10"
+                android:fontFamily="@font/thin_poppins"
+                android:gravity="center_vertical"
+                android:hint="Enter a description"
+                android:inputType="text|textMultiLine"
+                android:minHeight="48dp"
+                android:padding="10dp"
+                android:paddingStart="15dp"
+                android:scrollHorizontally="false"
+                android:singleLine="false"
+                android:textColor="@color/white"
+                android:textColorHint="@color/hint"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/apoppins"
+                android:text="Snap a pic of the task!"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/uploadTaskPic"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/rounded_rect_10"
+                android:padding="10dp"
+                app:srcCompat="@drawable/image_upload"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/apoppins"
+                android:text="Where are you currently?"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/rounded_rect_10"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp">
+
+                <EditText
+                    android:id="@+id/location_words"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:ems="10"
+                    android:background="@drawable/rounded_rect_10"
+                    android:fontFamily="@font/thin_poppins"
+                    android:hint="eg. Home, Somewhere on Earth..."
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/hint"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/location_words"
+                    android:text="Location: "
+                    android:textSize="15dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/apoppins"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/location_words"
+                    android:layout_toRightOf="@id/textView21"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/thin_poppins"
+                    android:text="Latitude, Longitude"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+
+                <ImageView
+                    android:id="@+id/getCoordinates_Button"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_below="@id/location_words"
+                    android:layout_toRightOf="@id/location"
+                    android:clickable="true"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/get_location"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            </RelativeLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/accessMaps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/design_default_color_background"
+                android:fontFamily="@font/thin_poppins"
+                android:padding="10dp"
+                android:text="Show Maps"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                app:cornerRadius="10dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/saveNewTasks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/blue"
+                android:fontFamily="@font/thin_poppins"
+                android:padding="10dp"
+                android:text="Add task"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                app:cornerRadius="10dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

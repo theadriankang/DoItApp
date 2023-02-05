@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single" />
+
+    <group>
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="About" />
+
+    </group>
+    <item android:title="Tasks">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_tasks"
+                    android:icon="@drawable/ic_baseline_list_alt_24"
+                    android:title="Task List" />
+                <item
+                    android:id="@+id/nav_addtasks"
+                    android:icon="@drawable/ic_baseline_add_circle_outline_24"
+                    android:title="Add Task"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Reward">
+        <menu>
+            <item
+                android:id="@+id/nav_rewards"
+                android:icon="@drawable/ic_baseline_card_giftcard_24"
+                android:title="Reward" />
+            <item
+                android:id="@+id/nav_setgoal"
+                android:icon="@drawable/ic_baseline_diamond_24"
+                android:title="Set Goal" />
+        </menu>
+    </item>
+    <item android:title="Exit">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_exit"
+                    android:icon="@drawable/ic_baseline_exit_to_app_24"
+                    android:title="Exit Application" />
+
+            </group>
+        </menu>
+    </item>
+</menu>

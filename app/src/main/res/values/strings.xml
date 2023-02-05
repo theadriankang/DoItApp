@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">P2124786 Assignment</string>
+    <string name="AppDesc1">The app aims to make tasks such as homework and chores rewarding to kids.\n\nHence, the concept of this app is "Gamified task" where kids can complete tasks and chores approved by their parents and accumulate points which can be redeemed for rewards such as toys and more.\n\nFeatures of the app include:\n⚪ Adding tasks\n⚪ Parental verification\n⚪ Setting goals\n⚪ Monitoring progress\nand more!</string>
+    <string name="AppDesc">DoIt aims to make tasks such as homework and chores rewarding to users.\n\nHence, the concept of this app is "Gamified task" where users can complete tasks added by them and accumulate points which can be redeemed for rewards such as going out with friends, having a 1-hour break and more.\n\nFeatures of the app include:\n⚪ Adding tasks\n⚪ Setting goals\n⚪ Monitoring progress\nand more!</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>102, 58 - 40inch by
+    22.8inch
+
+</resources>

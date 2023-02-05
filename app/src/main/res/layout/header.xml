@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="80dp"
+    android:background="@color/blue"
+    android:gravity="bottom"
+    android:padding="20dp">
+
+
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            app:srcCompat="@drawable/doit_logo_text"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do It"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/apoppins"/>
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Making tasks rewarding."
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/thin_poppins"/>
+
+
+</LinearLayout>
